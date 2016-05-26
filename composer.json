@@ -1,0 +1,34 @@
+{
+    "name": "ashleyhindle/myexcelisonfire",
+    "description": "PHPExcel wrapper to make creation of excel spreadsheets easier",
+    "keywords": [
+	"excel", "phpexcel", "spreadsheet", "xls", "xlsx"
+    ],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Ashley Hindle",
+            "email": "hey@ashleyhindle.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tah\\MyExcelIsOnFire\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tah\\MyExcelIsOnFire\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {
+        "php": "~5.5 || ^7.0",
+        "phpoffice/phpexcel": "1.8.1"
+    },
+    "require-dev": {
+	"phpunit/phpunit": "4.8.26 || 5.3.4"
+    }
+}
